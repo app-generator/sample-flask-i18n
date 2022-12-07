@@ -16,6 +16,7 @@ from apps.authentication.forms import LoginForm, CreateAccountForm
 from apps.authentication.models import Users
 
 from apps.authentication.util import verify_pass
+from flask_babel import gettext as _
 
 
 @blueprint.route('/')
@@ -27,6 +28,7 @@ def route_default():
 
 @blueprint.route('/login', methods=['GET', 'POST'])
 def login():
+    print(_("hello from english"))
     login_form = LoginForm(request.form)
     if 'login' in request.form:
 
@@ -45,12 +47,11 @@ def login():
 
         # Something (user or pass) is not ok
         return render_template('accounts/login.html',
-                               msg='Wrong user or password',
+                               msg=_('Wrong user or password'),
                                form=login_form)
 
     if not current_user.is_authenticated:
-        return render_template('accounts/login.html',
-                               form=login_form)
+        return render_template('accounts/login.html',form=login_form)
     return redirect(url_for('home_blueprint.index'))
 
 

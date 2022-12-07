@@ -1,0 +1,317 @@
+# French translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-12-05 08:37+0300\n"
+"PO-Revision-Date: 2022-12-04 17:49+0300\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: apps/authentication/forms.py:15 apps/authentication/forms.py:24
+#: apps/templates/accounts/login.html:39
+#: apps/templates/accounts/register.html:41
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: apps/authentication/forms.py:18 apps/authentication/forms.py:30
+#: apps/templates/accounts/login.html:49
+#: apps/templates/accounts/register.html:59
+msgid "Password"
+msgstr "Contraseña"
+
+#: apps/authentication/forms.py:27 apps/templates/accounts/register.html:49
+msgid "Email"
+msgstr "Email"
+
+#: apps/authentication/routes.py:31
+msgid "hello from english"
+msgstr "hola desde españa"
+
+#: apps/authentication/routes.py:50
+msgid "Wrong user or password"
+msgstr "Usuario o contraseña incorrecta"
+
+#: apps/templates/accounts/login.html:3 apps/templates/accounts/register.html:84
+msgid "Sign IN"
+msgstr "Iniciar sesión"
+
+#: apps/templates/accounts/login.html:22
+#: apps/templates/accounts/register.html:73
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: apps/templates/accounts/login.html:29
+#: apps/templates/accounts/register.html:29
+msgid "Add your credentials"
+msgstr "Añade tus credenciales"
+
+#: apps/templates/accounts/login.html:60
+msgid "Remember me"
+msgstr "Recuérdame"
+
+#: apps/templates/accounts/login.html:63
+#: apps/templates/accounts/register.html:22
+msgid "Register"
+msgstr "Registrarse"
+
+#: apps/templates/accounts/login.html:67
+msgid "Sign in"
+msgstr "Iniciar sesión"
+
+#: apps/templates/accounts/login.html:75
+#: apps/templates/accounts/register.html:93
+msgid "coded by"
+msgstr "codificado por"
+
+#: apps/templates/accounts/register.html:3
+#: apps/templates/accounts/register.html:77
+msgid "Sign UP"
+msgstr "Registrarse"
+
+#: apps/templates/accounts/register.html:70
+msgid "Agree"
+msgstr "Estoy de acuerdo"
+
+#: apps/templates/accounts/register.html:70
+msgid "Terms"
+msgstr "Términos"
+
+#: apps/templates/home/index.html:91
+msgid "Open-source starter designed on top of Bootstrap 5 UI Kit (No jQuery)"
+msgstr "Inicio de código abierto diseñado sobre Bootstrap 5 UI Kit (Sin jQuery)"
+
+#: apps/templates/home/index.html:134
+msgid "Bootstrap 5 elements"
+msgstr "Elementos de Bootstrap 5"
+
+#: apps/templates/home/index.html:161
+msgid "Latest version of Bootstrap without jQuery"
+msgstr "Última versión de Bootstrap sin jQuery"
+
+#: apps/templates/home/index.html:162
+msgid "Pixel is built using the latest version of Bootstrap 5 and we only used Vanilla\n"
+"                            Javascript for everything including the plugins"
+msgstr "Pixel está construido usando la última versión de Bootstrap 5 y sólo usamos Vanilla\n"
+"                            Javascript para todo, incluyendo los plugins"
+
+#: apps/templates/home/index.html:165
+msgid "Product Docs"
+msgstr "Documentos del producto"
+
+#: apps/templates/home/index.html:173
+msgid "Modular sections"
+msgstr "Secciones modulares"
+
+#: apps/templates/home/index.html:174
+msgid "Pro"
+msgstr "Pro"
+
+#: apps/templates/home/index.html:176
+msgid "More than 50 website sections"
+msgstr "Más de 50 secciones del sitio web"
+
+#: apps/templates/home/index.html:177
+msgid "Using the sections in Pixel Pro you can easily build new pages by adding them\n"
+"                            together"
+msgstr "Usando las secciones de Pixel Pro puedes construir fácilmente nuevas páginas agregándolas\n"
+"                            juntas"
+
+#: apps/templates/home/index.html:194
+#, fuzzy
+msgid "9 dashboard pages"
+msgstr "hola desde la pantalla del salpicadero"
+
+#: apps/templates/home/index.html:195
+msgid "Quickly set up a user settings panel with the advanced dashboard pages including\n"
+"                            billing, settings, messaging"
+msgstr "Configurez rapidement un panneau de paramètres utilisateur avec les pages de tableau de bord avancées, y compris\n"
+"                            facturation, paramètres, messagerie"
+
+#: apps/templates/home/index.html:198
+#, fuzzy
+msgid "Explore\n"
+"                            dashboard"
+msgstr "hola desde la pantalla del salpicadero"
+
+#: apps/templates/home/index.html:227
+msgid "What is the purpose of a FAQ?"
+msgstr "A quoi sert une FAQ ?"
+
+#: apps/templates/home/index.html:233
+msgid "This is the first item's accordion body."
+msgstr "Il s'agit du corps accordéon du premier élément."
+
+#: apps/templates/home/index.html:234
+msgid "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.\n"
+"                                        These classes control the overall appearance, as well as the showing and hiding via CSS transitions.\n"
+"                                        You can modify any of this with custom CSS or overriding our default variables.\n"
+"                                        It's also worth noting that just about any HTML can go within the"
+msgstr "Il est caché par défaut, jusqu'à ce que le plugin de repli ajoute les classes appropriées que nous utilisons pour styliser chaque élément.\n"
+"                                        Ces classes contrôlent l'apparence générale, ainsi que l'affichage et le masquage via des transitions CSS.\n"
+"                                        Vous pouvez modifier tout cela avec un CSS personnalisé ou remplacer nos variables par défaut.\n"
+"                                        Il est également intéressant de noter que presque n'importe quel HTML peut aller dans le"
+
+#: apps/templates/home/index.html:238 apps/templates/home/index.html:258
+#: apps/templates/home/index.html:278
+msgid "though the transition does limit overflow."
+msgstr "bien que la transition limite le débordement."
+
+#: apps/templates/home/index.html:246
+msgid "What is a FAQ document?"
+msgstr "Qu'est-ce qu'un document FAQ ?"
+
+#: apps/templates/home/index.html:252
+msgid "This is the second item's accordion body."
+msgstr "Il s'agit du corps en accordéon du deuxième élément."
+
+#: apps/templates/home/index.html:253
+msgid "It is hidden by default,\n"
+"                                        until the collapse plugin adds the appropriate classes that we use to style each\n"
+"                                        element. These classes control the overall appearance, as well as the showing and hiding\n"
+"                                        via CSS transitions. You can modify any of this with custom CSS or overriding our\n"
+"                                        default variables. It's also worth noting that just about any HTML can go within the"
+msgstr "Il est caché par défaut,\n"
+"                                        jusqu'à ce que le plugin d'effondrement ajoute les classes appropriées que nous utilisons pour styliser chacun\n"
+"                                        élément. Ces classes contrôlent l'apparence générale, ainsi que l'affichage et le masquage\n"
+"                                        via les transitions CSS. Vous pouvez modifier tout cela avec un CSS personnalisé ou remplacer notre\n"
+"                                        variables par défaut. Il est également intéressant de noter que presque n'importe quel HTML peut aller dans le"
+
+#: apps/templates/home/index.html:266
+msgid "What are the top 10 interview questions?"
+msgstr "Quelles sont les 10 principales questions d'entrevue?"
+
+#: apps/templates/home/index.html:272
+msgid "This is the third item's accordion body"
+msgstr "Ceci est le corps accordéon du troisième élément"
+
+#: apps/templates/home/index.html:273
+msgid "It is hidden by default, until\n"
+"                                        the collapse plugin adds the appropriate classes that we use to style each element.\n"
+"                                        These classes control the overall appearance, as well as the showing and hiding via CSS\n"
+"                                        transitions. You can modify any of this with custom CSS or overriding our default\n"
+"                                        variables. It's also worth noting that just about any HTML can go within the"
+msgstr "Il est caché par défaut, jusqu'à ce que\n"
+"                                        le plugin collapse ajoute les classes appropriées que nous utilisons pour styliser chaque élément.\n"
+"                                        Ces classes contrôlent l'apparence générale, ainsi que l'affichage et le masquage via CSS\n"
+"                                        transitions. Vous pouvez modifier tout cela avec un CSS personnalisé ou remplacer notre valeur par défaut\n"
+"                                        variables. Il est également intéressant de noter que presque n'importe quel HTML peut aller dans le"
+
+#: apps/templates/home/index.html:292
+msgid "Alerts"
+msgstr "Alertes"
+
+#: apps/templates/home/index.html:335
+msgid "Badges"
+msgstr "Insignes"
+
+#: apps/templates/home/index.html:362
+msgid "Cards"
+msgstr "Cartes"
+
+#: apps/templates/home/index.html:376
+msgid "Awards"
+msgstr "Prix"
+
+#: apps/templates/home/index.html:377
+msgid "We partnered up with Google"
+msgstr "Nous nous sommes associés à Google"
+
+#: apps/templates/home/index.html:378
+msgid "Some quick example text to build on the card title and make up the bulk of\n"
+"                                    the card's content."
+msgstr "Quelques exemples de texte rapides à construire sur le titre de la carte et constituant l'essentiel de\n"
+"                                    le contenu de la carte."
+
+#: apps/templates/home/index.html:380
+msgid "Learn More"
+msgstr "Apprendre encore plus"
+
+#: apps/templates/home/index.html:395
+msgid "Neil drives the technical strategy of the platform and brand."
+msgstr "Neil pilote la stratégie technique de la plateforme et de la marque."
+
+#: apps/templates/home/index.html:412
+msgid "Basic"
+msgstr "De base"
+
+#: apps/templates/home/index.html:417
+msgid "month"
+msgstr "mois"
+
+#: apps/templates/home/index.html:424
+msgid "free domain"
+msgstr "domaine gratuit"
+
+#: apps/templates/home/index.html:425
+msgid "Storage space:"
+msgstr "Espace de stockage:"
+
+#: apps/templates/home/index.html:426
+msgid "monthly visitors"
+msgstr "visiteurs mensuels"
+
+#: apps/templates/home/index.html:427
+msgid "One-click staging site"
+msgstr "Site de développement en un clic"
+
+#: apps/templates/home/index.html:428
+msgid "Search engine wizard"
+msgstr "Assistant de moteur de recherche"
+
+#: apps/templates/home/index.html:429
+msgid "Community support"
+msgstr "Soutien communautaire"
+
+#: apps/templates/home/index.html:431
+msgid "Purchase now"
+msgstr "Achetez maintenant"
+
+#: apps/templates/home/index.html:443
+msgid "If you need any help with our products or services, choose one of the following ways\n"
+"                                            to contact us."
+msgstr "Si vous avez besoin d'aide avec nos produits ou services, choisissez l'une des façons suivantes\n"
+"                                            pour nous contacter."
+
+#: apps/templates/home/index.html:452
+msgid "Contact Us"
+msgstr "Nous contacter"
+
+#: apps/templates/home/page-404.html:3 apps/templates/home/page-404.html:23
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: apps/templates/home/page-404.html:27
+msgid "Page not found"
+msgstr "Page non trouvée"
+
+#: apps/templates/home/page-404.html:33 apps/templates/home/page-500.html:33
+msgid "Home"
+msgstr "Maison"
+
+#: apps/templates/home/page-404.html:33 apps/templates/home/page-500.html:33
+msgid "Contact"
+msgstr "Contact"
+
+#: apps/templates/home/page-404.html:33 apps/templates/home/page-500.html:33
+msgid "Support"
+msgstr "Soutien"
+
+#: apps/templates/home/page-500.html:3 apps/templates/home/page-500.html:23
+msgid "Error 500"
+msgstr "Erreur 500"
+
+#: apps/templates/home/page-500.html:27
+msgid "Server error"
+msgstr "Erreur du serveur"
+
