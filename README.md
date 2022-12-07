@@ -11,6 +11,7 @@
 
 > 🚀 Built with [App Generator](https://appseed.us/generator/), Timestamp: `2022-05-31 08:12`
 
+- ✅ `i18n` ready via **Flask-Babel** - see [full docs](./README_i18n.md) 
 - ✅ `Up-to-date dependencies`
 - ✅ Database: `sqlite`
 - ✅ `DB Tools`: SQLAlchemy ORM, Flask-Migrate (schema migrations)
