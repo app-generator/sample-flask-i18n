@@ -217,3 +217,23 @@ The resulting URL will be like:
 http://<ip or domain>  # Default language
 http://<ip or domain>?lang=fr  # To translate to French
 ````
+
+<br />
+
+## How to specify the default language
+
+@todo - All Steps 
+
+<br />
+
+## How to correct a wrong label
+
+@todo - All Steps
+
+<br />
+
+## How to add a new language
+
+@todo - All Steps
+
+<br />
