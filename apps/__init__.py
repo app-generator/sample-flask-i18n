@@ -14,7 +14,7 @@ base_dir = os.getcwd()
 app = Flask(__name__)
 app.config["BABEL_TRANSLATION_DIRECTORIES"] = os.path.join(base_dir, "locale")
 
-print("i18n folder: ",app.config["BABEL_TRANSLATION_DIRECTORIES"])
+app.logger.info("LOCALIZATION FOLDER =  "+app.config["BABEL_TRANSLATION_DIRECTORIES"])
 db = SQLAlchemy()
 login_manager = LoginManager()
 babel = Babel(app)
