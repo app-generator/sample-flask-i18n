@@ -17,6 +17,9 @@ class Config(object):
     # Set App Languages 
     LANGUAGES = ['en', 'es','fr']
 
+    # Set Default Language
+    LANG='en'
+
 
     # This will create a file in <app> FOLDER
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'db.sqlite3')
