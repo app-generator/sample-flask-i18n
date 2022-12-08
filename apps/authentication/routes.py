@@ -28,7 +28,6 @@ def route_default():
 
 @blueprint.route('/login', methods=['GET', 'POST'])
 def login():
-    print(_("hello from english"))
     login_form = LoginForm(request.form)
     if 'login' in request.form:
 
