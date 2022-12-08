@@ -50,7 +50,7 @@ msgstr "Registrarse"
 #: apps/templates/accounts/login.html:22
 #: apps/templates/accounts/register.html:73
 msgid "Login"
-msgstr "Acceso"
+msgstr "Edited Login"
 
 #: apps/templates/accounts/login.html:29
 #: apps/templates/accounts/register.html:29
