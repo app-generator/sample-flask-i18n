@@ -49,13 +49,16 @@ def configure_database(app:Flask):
 
 #  Babel Language Selector
 @babel.localeselector
-def get_locale():
-    if not g.get('lang',None):
-        if request.args.get('lang') !="":
-            g.lang = request.args.get('lang') 
-        else:
-            g.lang = request.accept_languages.best_match(app.config['LANGUAGES'])
-    return g.lang
+def get_locale()->str:
+    lang = ''
+    if request.args.get('lang')!=None: 
+        return request.args.get('lang')  # return language passed as lang query string if present
+    else:
+        try:
+            lang = app.config['LANG']  # return language defined by LANG config variable if defined. Returns KeyError if not defined
+        except KeyError:  
+            lang = request.accept_languages.best_match(app.config['LANGUAGES'])  # return language from the client browser if all the above options are not defined
+        return lang
 
 
 def create_app(config):
